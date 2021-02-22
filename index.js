@@ -121,10 +121,10 @@ function app() {
   }
 
   function combine() {
-    if (!fs.existsSync(path.resolve(__dirname, "output"))) {
-      fs.mkdirSync(path.resolve(__dirname, "output"))
+    if (!fs.existsSync(path.resolve(__dirname, "dist"))) {
+      fs.mkdirSync(path.resolve(__dirname, "dist"))
     }
-    fs.writeFileSync(path.join(path.resolve(__dirname, "output"), "employees.html"), render(teamMembers), "utf-8");
+    fs.writeFileSync(path.join(path.resolve(__dirname, "dist"), "employees.html"), render(teamMembers), "utf-8");
   }
 
   chooseEmployee();
