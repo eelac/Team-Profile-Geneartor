@@ -10,8 +10,7 @@ Run "node index.js" to get prompted to create your team
 
 ## Links
 [Github](https://github.com/eelac/Team-Profile-Geneartor)  
-[Video]
-
+[Video](https://drive.google.com/file/d/1t8kJQzjVxhaGzcVgRv91-Xcf9Re3eGBb/view)
 
 ## Screenshot
 ![Screenshot](preview/Team-Profile-Generator-Pic.png)
